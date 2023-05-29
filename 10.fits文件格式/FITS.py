@@ -13,4 +13,6 @@ data = hdulist[1].data
 
 # Optionally, access the header information
 header = hdulist[1].header
-header
+print(header)
+
+print(hdulist.info())
